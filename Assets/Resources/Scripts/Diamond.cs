@@ -1,10 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Coin : MonoBehaviour {
+public class Diamond : MonoBehaviour {
 
-	private const int POINTS = 1;
-
+	private const int POINTS = 5;
 	// Use this for initialization
 	void Start () {
 

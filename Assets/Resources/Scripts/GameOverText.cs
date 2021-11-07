@@ -32,6 +32,8 @@ public class GameOverText : MonoBehaviour {
 			if (Input.GetButtonDown("Jump")) {
 
 				// reload entire scene, starting music over again, refreshing score, etc.
+				// reset speed in skyscrapper that drives speed for Airplane, coins and skyscraper
+				SkyscraperSpawner.speed = SkyscraperSpawner.STARTING_SPEED;
 				SceneManager.LoadScene("Main");
 			}
 		}
